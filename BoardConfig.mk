@@ -192,10 +192,11 @@ TARGET_USES_OLD_MNC_FORMAT := true
 VENDOR_SECURITY_PATCH := 2020-03-05
 
 # SELinux
-include device/qcom/sepolicy-legacy-um/sepolicy.mk
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-SELINUX_IGNORE_NEVERALLOWS := true
+#include device/qcom/sepolicy-legacy-um/sepolicy.mk
+#BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+#BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+#SELINUX_IGNORE_NEVERALLOWS := true
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-tmp
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
