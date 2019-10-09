@@ -223,6 +223,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
 >>>>>>> fea39a5... X00P: decommonize
 
+# Legacy Encryption
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
+
 # Lights
 PRODUCT_PACKAGES += \
     lights.msm8937
