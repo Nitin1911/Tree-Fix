@@ -17,4 +17,7 @@
 <resources>
     <!-- Doze: does this device support STATE_DOZE and STATE_DOZE_SUSPEND?  -->
     <bool name="doze_display_state_supported">true</bool>
+
+    <!-- Show RSRP Signal level for LTE -->
+    <bool name="config_showRsrpSignalLevelforLTE">true</bool>
 </resources>
