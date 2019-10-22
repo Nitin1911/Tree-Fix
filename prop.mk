@@ -163,6 +163,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.data.mode=concurrent
     service.qti.ims.enabled=1 \
     ro.telephony.iwlan_operation_mode=legacy \
+    persist.sys.fflag.override.settings_network_and_internet_v2=true
 
 # SurfaceFlinger
 PRODUCT_PROPERTY_OVERRIDES += \
