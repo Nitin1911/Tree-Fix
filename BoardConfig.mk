@@ -165,7 +165,10 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_HAS_NO_WLAN_STATS := true
 TARGET_USES_INTERACTION_BOOST := true
 
-# Qualcomm support
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
+# Qualcomm Support
 BOARD_USES_QCOM_HARDWARE := true
 
 # Recovery
