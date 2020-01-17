@@ -36,3 +36,6 @@ VNDK_SP_LIBRARIES := \
     libutils \
     libutilscallstack \
     libz
+
+EXTRA_VENDOR_LIBRARIES := \
+    vendor.qti.hardware.cryptfshw@1.0
