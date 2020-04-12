@@ -21,7 +21,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 # Properties
--include $(LOCAL_PATH)/vendor_prop.mk
+-include $(LOCAL_PATH)/prop.mk
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
