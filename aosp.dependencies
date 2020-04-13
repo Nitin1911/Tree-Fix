@@ -1,0 +1,7 @@
+[
+  {
+    "repository":  "kernel_asus_X00P",
+    "target_path": "kernel/asus/X00P",
+    "branch": "ten"
+  },
+]
