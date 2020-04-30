@@ -427,6 +427,11 @@ vendor/lib64/libOmxWmaDec.so|9610a29440a33e6dfca61d330d0d82c9bbe78b03
 -vendor/lib64/libgpustats.so|dd2ecc6c5ef439a8d427a52ab9d153f8e747deff
 vendor/lib64/libmm-color-convertor.so|60efd198ec7461154746c5987e5a267f12f8dbc1
 
+# Media OMX - from X00P - QKQ1.191002.002-17.00.2003.23-20200401
+-vendor/lib/libMpeg4SwEncoder.so|4724c498d1949dbcd19d73b8ef7279d49f09b0d9
+-vendor/lib/libOmxSwVdec.so|30a6eeebd47fbe17aecc92af7fd3dee8848e8bc1
+-vendor/lib/libOmxSwVencMpeg4.so|eda2bef01841815a7a165ea2280c88cf0e080045
+
 # Perf - from X00P - QKQ1.191002.002-17.00.2003.23-20200401
 etc/perf/wlc_model.tflite|5138bd41b3beb56c5c82ae95251050b2b45c55b7
 lib/libqti-perfd-client_system.so|c021b1c1065161a15c2202747ef6738e89cd1b7b
