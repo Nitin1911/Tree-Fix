@@ -8,7 +8,7 @@
 | Chipset                 | Qualcomm MSM8937 Snapdragon 430   |
 | GPU                     | Adreno 505                        |
 | Memory                  | 3 GB                            |
-| Shipped Android Version | 8.0.0                             |
+| Shipped Android Version | 8.0.0 (upgradable to Android 10)                            |
 | Storage                 | 32 GB                          |
 | MicroSD                 | Up to 256 GB                      |
 | Battery                 | 4000 mAh (non-removable)          |
