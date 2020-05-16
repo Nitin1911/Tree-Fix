@@ -157,9 +157,10 @@ BOARD_CACHEIMAGE_PARTITION_SIZE    := 157286400
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
 BOARD_ROOT_EXTRA_SYMLINKS := \
+    /mnt/vendor/persist:/persist \
+    /vendor/bt_firmware:/bt_firmware \
     /vendor/dsp:/dsp \
-    /vendor/firmware_mnt:/firmware \
-    /mnt/vendor/persist:/persist
+    /vendor/firmware_mnt:/firmware
 BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 3460300800
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 24892644864
 BOARD_VENDORIMAGE_PARTITION_SIZE   := 681574400
@@ -192,6 +193,9 @@ VENDOR_SECURITY_PATCH := 2020-03-05
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
