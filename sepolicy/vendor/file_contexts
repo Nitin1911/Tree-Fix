@@ -25,5 +25,6 @@
 # Light
 /sys/devices/soc/78b6000\.i2c/i2c-2/2-[0-9a-f]+/leds(/.*)?    u:object_r:sysfs_leds:s0
 
-# Legacy Rootdir
-/firmware(/.*)?            u:object_r:firmware_file:s0
+# Firmware
+/bt_firmware(/.*)?                                                    u:object_r:bt_firmware_file:s0
+/firmware(/.*)?                                                       u:object_r:firmware_file:s0
